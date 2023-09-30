@@ -2,7 +2,6 @@
 .p-input-icon-left > .p-icon-wrapper.p-icon, .p-input-icon-left > i:first-of-type {
     left: 2rem !important;
 }
-html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link .p-menuitem-text {
     color: purple !important;
@@ -15,4 +14,14 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: purple !important;
 
 }
+*{
+    // overflow-x: hidden ;
+    // overflow-y: hidden !important
+}
 
+
+/* Importing Bootstrap SCSS file. */
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+/* Importing Datepicker SCSS file. */
+@import "node_modules/ngx-bootstrap/datepicker/bs-datepicker";
